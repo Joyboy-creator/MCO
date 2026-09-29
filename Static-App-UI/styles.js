@@ -3,12 +3,13 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F7F7F5",
+    backgroundColor: "#F4F6F9", // Crisp light modern supermarket background
   },
 
   scrollContent: {
     paddingHorizontal: 20,
     paddingTop: 15,
+    paddingBottom: 90, // Prevents content from hiding behind bottom nav
   },
 
   header: {
@@ -21,14 +22,15 @@ const styles = StyleSheet.create({
   smallText: {
     fontSize: 11,
     letterSpacing: 1.5,
-    color: "#888",
-    fontWeight: "600",
+    color: "#0066FF", // Supermarket Blue accent
+    fontWeight: "700",
+    textTransform: "uppercase",
   },
 
   title: {
     fontSize: 30,
     fontWeight: "800",
-    color: "#1E1E1E",
+    color: "#111827",
     marginTop: 2,
   },
 
@@ -39,6 +41,11 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 6,
+    elevation: 2,
   },
 
   cartIcon: {
@@ -53,32 +60,37 @@ const styles = StyleSheet.create({
     alignItems: "center",
     paddingHorizontal: 15,
     marginBottom: 25,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.04,
+    shadowRadius: 6,
+    elevation: 2,
   },
 
   searchIcon: {
-    fontSize: 28,
-    color: "#777",
-    marginRight: 8,
+    fontSize: 22,
+    color: "#9CA3AF",
+    marginRight: 10,
   },
 
   searchInput: {
     flex: 1,
     fontSize: 14,
-    color: "#222",
+    color: "#1F2937",
   },
 
   filterButton: {
-    width: 34,
-    height: 34,
+    width: 36,
+    height: 36,
     borderRadius: 10,
-    backgroundColor: "#1E1E1E",
+    backgroundColor: "#0066FF", // Brand blue action button
     justifyContent: "center",
     alignItems: "center",
   },
 
   filterIcon: {
     color: "#FFFFFF",
-    fontSize: 20,
+    fontSize: 18,
   },
 
   sectionHeader: {
@@ -91,12 +103,12 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 18,
     fontWeight: "700",
-    color: "#202020",
+    color: "#111827",
   },
 
   seeAll: {
     fontSize: 12,
-    color: "#777",
+    color: "#0066FF",
     fontWeight: "600",
   },
 
@@ -110,15 +122,18 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     backgroundColor: "#FFFFFF",
     marginRight: 8,
+    borderWidth: 1,
+    borderColor: "#E5E7EB",
   },
 
   activeCategory: {
-    backgroundColor: "#1E1E1E",
+    backgroundColor: "#0066FF",
+    borderColor: "#0066FF",
   },
 
   categoryText: {
     fontSize: 12,
-    color: "#666",
+    color: "#4B5563",
     fontWeight: "600",
   },
 
@@ -136,6 +151,11 @@ const styles = StyleSheet.create({
     borderRadius: 18,
     padding: 10,
     marginRight: 12,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 3 },
+    shadowOpacity: 0.06,
+    shadowRadius: 8,
+    elevation: 3,
   },
 
   featuredCard: {
@@ -144,7 +164,7 @@ const styles = StyleSheet.create({
 
   productImage: {
     height: 135,
-    backgroundColor: "#EFEFEA",
+    backgroundColor: "#F3F4F6",
     borderRadius: 14,
     justifyContent: "center",
     alignItems: "center",
@@ -165,11 +185,16 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFFFF",
     justifyContent: "center",
     alignItems: "center",
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 2,
+    elevation: 2,
   },
 
   favoriteIcon: {
-    fontSize: 19,
-    color: "#333",
+    fontSize: 16,
+    color: "#EF4444", // Soft red for wishlist heart
   },
 
   productInfo: {
@@ -179,14 +204,16 @@ const styles = StyleSheet.create({
 
   productCategory: {
     fontSize: 10,
-    color: "#999",
+    color: "#9CA3AF",
     marginBottom: 3,
+    textTransform: "uppercase",
+    fontWeight: "600",
   },
 
   productName: {
     fontSize: 14,
     fontWeight: "700",
-    color: "#222",
+    color: "#1F2937",
     marginBottom: 8,
   },
 
@@ -199,26 +226,27 @@ const styles = StyleSheet.create({
   productPrice: {
     fontSize: 15,
     fontWeight: "800",
-    color: "#1E1E1E",
+    color: "#00A859", // Fresh green for pricing
   },
 
   addButton: {
     width: 28,
     height: 28,
-    borderRadius: 10,
-    backgroundColor: "#1E1E1E",
+    borderRadius: 8,
+    backgroundColor: "#0066FF",
     justifyContent: "center",
     alignItems: "center",
   },
 
   addIcon: {
     color: "#FFFFFF",
-    fontSize: 20,
-    lineHeight: 22,
+    fontSize: 18,
+    lineHeight: 20,
   },
 
   grid: {
     flexDirection: "row",
+    flexWrap: "wrap",
     gap: 12,
   },
 
@@ -230,7 +258,7 @@ const styles = StyleSheet.create({
     height: 72,
     backgroundColor: "#FFFFFF",
     borderTopWidth: 1,
-    borderTopColor: "#EEEEEE",
+    borderTopColor: "#E5E7EB",
     flexDirection: "row",
     justifyContent: "space-around",
     alignItems: "center",
@@ -245,13 +273,13 @@ const styles = StyleSheet.create({
 
   navIcon: {
     fontSize: 21,
-    color: "#888",
+    color: "#9CA3AF",
     marginBottom: 3,
   },
 
   navText: {
     fontSize: 10,
-    color: "#888",
+    color: "#9CA3AF",
     fontWeight: "600",
   },
 
@@ -259,7 +287,7 @@ const styles = StyleSheet.create({
     width: 36,
     height: 30,
     borderRadius: 12,
-    backgroundColor: "#1E1E1E",
+    backgroundColor: "#0066FF",
     justifyContent: "center",
     alignItems: "center",
     marginBottom: 3,
@@ -271,7 +299,7 @@ const styles = StyleSheet.create({
 
   activeNavText: {
     fontSize: 10,
-    color: "#1E1E1E",
+    color: "#0066FF",
     fontWeight: "700",
   },
 });
