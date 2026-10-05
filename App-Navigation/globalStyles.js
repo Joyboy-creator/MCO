@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
-      height: 8,
+      height: 7,
     },
     shadowOpacity: 0.15,
     shadowRadius: 12,
@@ -71,7 +71,7 @@ const styles = StyleSheet.create({
   },
 
   heroContent: {
-    maxWidth: 330,
+    maxWidth: 320,
   },
 
   heroSmallText: {
@@ -117,9 +117,9 @@ const styles = StyleSheet.create({
 
   featureTitle: {
     fontSize: 20,
-    fontWeight: "800",
+    fontWeight: "750",
     color: "#172033",
-    marginTop: 28,
+    marginTop: 27,
     marginBottom: 15,
   },
 
