@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
 
   smallText: {
     fontSize: 11,
-    letterSpacing: 1.5,
+    letterSpacing: 1.6,
     color: "#0066FF", // Supermarket Blue accent
     fontWeight: "700",
     textTransform: "uppercase",

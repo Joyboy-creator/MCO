@@ -27,8 +27,8 @@ export default function App() {
   const products = [
     {
       name: "Sneakers",
-      category: "Fashion",
-      price: "₱2,000",
+      category: "Fashions",
+      price: "₱3,000",
       image: "👟",
     },
     {
