@@ -50,7 +50,7 @@ export default function App() {
       image: "⌚",
     },
     {
-      name: "Desk Lamp",
+      name: "Lamp",
       category: "Home",
       price: "₱799",
       image: "💡",
