@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     fontWeight: "750",
     color: "#172033",
     marginTop: 27,
-    marginBottom: 15,
+    marginBottom: 17,
   },
 
   featuresRow: {
