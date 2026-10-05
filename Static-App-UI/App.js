@@ -56,7 +56,7 @@ export default function App() {
       image: "💡",
     },
     {
-      name: "Casual T-Shirt",
+      name: "Oxygen T-Shirt ",
       category: "Fashion",
       price: "₱599",
       image: "👕",
