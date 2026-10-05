@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
 
   heroDescription: {
     fontSize: 14,
-    lineHeight: 22,
+    lineHeight: 23,
     color: "#B9C1CF",
     marginBottom: 25,
   },
