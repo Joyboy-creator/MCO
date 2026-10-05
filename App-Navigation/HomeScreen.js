@@ -59,7 +59,7 @@ export default function HomeScreen({ navigation }) {
       </View>
 
       <Text style={styles.featureTitle}>
-        Why Shop With Us?
+        Why Shop With Us? Buy Now!
       </Text>
 
       <View style={styles.featuresRow}>
