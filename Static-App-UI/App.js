@@ -32,7 +32,7 @@ export default function App() {
       image: "👟",
     },
     {
-      name: "Wireless Headphones",
+      name: "Headphones",
       category: "Electronics",
       price: "₱1,899",
       image: "🎧",
